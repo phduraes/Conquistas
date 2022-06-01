@@ -1,4 +1,4 @@
-package jedi.project.conquista02;
+package jedi.project.veiculos;
 
 public class Moto {
 
