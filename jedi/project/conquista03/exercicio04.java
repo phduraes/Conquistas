@@ -10,11 +10,7 @@ package jedi.project.conquista03;
  * 	3. Iteração: nome, nome, nome
  */
 public class exercicio04 {
-    public static void main(String[] args) {
-
-
-        }
-
-
+    public static void main(String[] args){
     }
 }
+
