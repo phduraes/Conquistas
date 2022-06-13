@@ -16,5 +16,6 @@ public class DesafioFor {
         for (String v = "#"; !v.equals("#####"); v += "#") {
             System.out.printf(v);
         }
+
     }
 }
