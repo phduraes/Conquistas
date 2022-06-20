@@ -13,13 +13,11 @@ public class exercicio03 {
 
         int contador = 0;
 
-        while (contador >= 10) {
+        while (contador > 10) {
 
             System.out.printf(String.valueOf(contador));
             contador++;
         }
-
-
 
     }
 
