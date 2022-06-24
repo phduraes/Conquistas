@@ -17,15 +17,16 @@ Nome nome casa
 
     public static void main(String[] args) {
 
-        String [] nomes = new String[4];
+        String [] nomes = new String[5];
 
         nomes[0] = "Panda \n";
         nomes[1] = "Gordo \n";
         nomes[2] = "Kamy \n";
         nomes[3] = "Neve \n";
+        nomes[4] = "Goku \n";
 
-        for (int i = 0; i <nomes.length; i++) {
-            PrintStream printf = System.out.printf(nomes[i]);
+        for (int posicaoVetor = 0; posicaoVetor <5; posicaoVetor++) {
+            System.out.printf(nomes[posicaoVetor]);
         }
  }
 
