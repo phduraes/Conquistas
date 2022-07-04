@@ -11,7 +11,7 @@ import java.io.PrintStream;
  * </endereco>
  *     * */
 
-public class Aula03TiposPrimitivosWExercicio {
+public class Aula03TiposPrimitivosExercicio {
 
     public static void main(String[] args) {
 
