@@ -1,6 +1,4 @@
-package maranota_java;
-
-import java.io.PrintStream;
+package maratona_java;
 
 public class Aula02TiposPrimitivos {
 

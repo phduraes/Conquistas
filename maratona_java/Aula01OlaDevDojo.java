@@ -1,4 +1,4 @@
-package maranota_java;
+package maratona_java;
 
 public class Aula01OlaDevDojo {
 

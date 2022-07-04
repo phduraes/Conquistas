@@ -1,4 +1,4 @@
-package maranota_java;
+package maratona_java;
 
 /**
  * isso é um comentário....de uma linha ou
