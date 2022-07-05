@@ -1,15 +1,18 @@
 package maratona_java;
 
-public class Aula05EstruturaCondicionais {
+public class Aula05EstruturaCondicionais01 {
 
     public static void main(String[] args) {
 
-        int idade = 36;
+        int idade = 14;
         boolean isAutorizadoComprarBebida = idade >= 18;
 
-        if (isAutorizadoComprarBebida) {
+        if (isAutorizadoComprarBebida != false) {
 
             System.out.printf("\nAutorizado a comprar bebidas alcoolicas ");
+
+        } else {
+            System.out.printf("\n Nao autorizado a comprar bebidas alcoolicas ");
         }
 
         if (isAutorizadoComprarBebida == false) {
@@ -17,6 +20,6 @@ public class Aula05EstruturaCondicionais {
             System.out.printf("\n Nao autorizado a comprar bebidas alcoolicas ");
         }
 
-
     }
+
 }
