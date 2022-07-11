@@ -3,7 +3,8 @@ package maratona_java;
 /**
  *
  * 33 - Arrays pt 02
- * //
+ * 34 - Arrays pt 03
+ *
  */
 public class Aula07Arrays02 {
 
@@ -14,13 +15,19 @@ public class Aula07Arrays02 {
         // boolena false
         // String null
 
-        String [] idades = new String [3];
+        String [] nomes = new String [4];
+        nomes[0] = "\n Goku";
+        nomes[1] = "\n Kurosaki";
+        nomes[2] = "\n Luffy";
+        nomes[3] = "\n Hinata";
 
 
-        System.out.printf(String.valueOf(idades[0]));
-        System.out.printf(String.valueOf(idades[1]));
-        System.out.printf(String.valueOf(idades[2]));
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.printf(nomes[i]);
 
+        }
+
+        nomes = new String[4];
 
     }
 }
