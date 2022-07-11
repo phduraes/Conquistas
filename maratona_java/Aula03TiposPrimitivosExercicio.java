@@ -16,12 +16,12 @@ public class Aula03TiposPrimitivosExercicio {
     public static void main(String[] args) {
 
         String nome = "Phduraes";
-        String endereco = "Av. Rico da Fe";
+        String endereco = "Av. Rico na Fe";
         double salario = 5400.00F;
         String dataRecebimentoSalario = "20/12/2021";
 
         String relatorio = "Eu, " + nome + ", morando no endereco: " + endereco + "\nconfirmo que recebi o salario de R$" + salario + ", \nna data de: " + dataRecebimentoSalario;
-        PrintStream printf = System.out.printf(relatorio);
+       System.out.printf(relatorio);
 
 
     }
