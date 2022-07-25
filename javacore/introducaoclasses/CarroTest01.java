@@ -1,7 +1,8 @@
-package javacore.introducaoclasses.test;
+package javacore.introducaoclasses;
 
 /**
  * 42 - Orientação Objetos - Exercício Classes
+ * 43 - Orientação Objetos - Referência de objetos
  *  */
 
 import javacore.introducaoclasses.dominio.Carro;
@@ -22,6 +23,8 @@ public class CarroTest01 {
         carro2.nome = "\nMustang ";
         carro2.modelo = "\nGT 500 ";
         carro2.ano = 1968;
+
+        carro2 = carro1;
 
         System.out.printf("\nCarro 1: ");
         System.out.printf(carro1.nome);

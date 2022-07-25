@@ -1,4 +1,4 @@
-package javacore.introducaoclasses.test;
+package javacore.introducaoclasses;
 
 /**
  *

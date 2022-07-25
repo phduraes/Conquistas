@@ -1,4 +1,4 @@
-package javacore.introducaoclasses.test;
+package javacore.introducaoclasses;
 
 import javacore.introducaoclasses.dominio.Estudante;
 
