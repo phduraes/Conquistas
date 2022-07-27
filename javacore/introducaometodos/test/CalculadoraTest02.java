@@ -9,8 +9,18 @@ import javacore.introducaometodos.dominio.Calculadora;
 public class CalculadoraTest02 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        calculadora.multipicaDoisNumeros(10,225);
+        calculadora.multipicaDoisNumeros(21, 2);
 
+    }
+    public voi multiplicaDoisNumeros(int num1, float num2) {
+
+        System.out.printf(String.valueOf(num1 * num2));
+        return null;
+    }
+
+    public double divideDoisNumeros (double num1, double num2) {
+
+        return 0;
     }
 
 }

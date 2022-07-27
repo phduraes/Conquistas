@@ -13,7 +13,7 @@ public class Calculadora {
 
     }
     public void subtraiDoisNumeros() {
-        System.out.printf(String.valueOf(1245-36));
+        System.out.printf(String.valueOf(21-2));
     }
 
 
@@ -21,4 +21,12 @@ public class Calculadora {
         System.out.printf(String.valueOf(num1 * num2));
 
     }
-}
+
+    public double divideDoisNumeros(double num1, double num2) {
+        return 0;
+
+        }
+
+
+    }
+
